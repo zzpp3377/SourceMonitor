@@ -75,7 +75,6 @@ void test3(int count, int interval, int pid){
     }    
 }
 
-
 void test4(int count, int interval, int pid){
     SourceMonitor sourceMonitor;
     sourceMonitor.registerStatistic(IoRdRate);
