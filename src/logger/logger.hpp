@@ -75,7 +75,7 @@ typedef enum LOG_LEVEL {
     #define log_info(level,format, ...) \
         do { \
             if(level>=LOG_LEVEL_INFO)\
-            DEBUG( "=>INFO  FUNC:%s \t"format"\n" ,__func__,##__VA_ARGS__ );\
+            DEBUG( "=>INFO  FUNC:%s \t" format "\n" ,__func__,##__VA_ARGS__ );\
         } while (0)
 #else 
     #define log_info(level,format, ...)
@@ -85,7 +85,7 @@ typedef enum LOG_LEVEL {
     #define log_debug(level,format, ...) \
         do { \
             if(level>=LOG_LEVEL_DEBUG)\
-            DEBUG( "=>DEBUG FUNC:%s \t"format"\n" ,__func__,##__VA_ARGS__ );\
+            DEBUG( "=>DEBUG FUNC:%s \t" format "\n" ,__func__,##__VA_ARGS__ );\
         } while (0)
 #else 
     #define log_debug(level,format, ...)
