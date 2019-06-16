@@ -29,7 +29,7 @@
 
 #include <unistd.h>
 
-#include "logger.hpp"
+#include "logger/logger.hpp"
 
 unsigned int kb_shift;
 

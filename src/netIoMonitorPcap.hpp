@@ -28,7 +28,7 @@
 #include <set>
 #include <vector>
 #include <arpa/inet.h>
-#include "decpcap.h"
+#include "decpcap/decpcap.h"
 
 class NetIoMonitorPcap{
 public:

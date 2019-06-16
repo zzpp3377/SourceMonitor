@@ -35,7 +35,7 @@
 #include <sstream>
 
 
-#include "logger.hpp"
+#include "logger/logger.hpp"
 static LogLevel logLevel=LOG_LEVEL_WARN;
 
 bool NetIoMonitor::registerPid(unsigned int pid){
