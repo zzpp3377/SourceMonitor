@@ -54,3 +54,7 @@ ubuntu：
 	完成安装后，可以进入SourceMonitor/example编译运行示例。  
 	如示例中所展示的，使用SourceMonitor仅需要#include “sourceMonitor.hpp”，然后按照API介绍中描述的方法使用接口即可。  
 	编译脚本SourceMonitor/example/compile.sh分别提供了SourceMonitor动态链接库和静态链接库的编译方法。  
+
+### 6、其他资源监控工具
+    sysstat：   https://github.com/sysstat/sysstat.git  
+    nethogs：   https://github.com/raboof/nethogs.git
