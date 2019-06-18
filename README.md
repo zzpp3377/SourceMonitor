@@ -16,26 +16,26 @@
 （5）读取监控数据：getStatistic(unsigned int pid,StatisticT statistic)  
 	读取进程pid的监控参数statistic。  
 ### 3、支持的监控参数
-	CpuRatio：		cpu利用率（进程占用cpu时间/墙上时间）  
+	CpuRatio：      cpu利用率（进程占用cpu时间/墙上时间）  
     CpuUsrRatio：	用户态cpu利用率（进程用户态占用cpu时间/墙上时间）  
     CpuSysRatio：	内核态cpu利用率（进程内核态占用cpu时间/墙上时间）  
-    CpuGstRatio,：	虚拟cpu利用率（Guest time of the process）  
+    CpuGstRatio：	虚拟cpu利用率（Guest time of the process）  
     CpuWaitRatio：	进程等待运行的时间开销（等待时间/墙上时间）  
-    CpuIndex：		当前运行进程的cup号  
+    CpuIndex：      当前运行进程的cup号  
   
-    MemRatio：		进程内存使用率（进程物理内存占用/总物理内存）  
-    MemRss,：		进程物理内存占用  
-    MemVsz：		进程虚拟内存占用  
-    MemMinfltRate,：	进程发生minor faults 的频率  
+    MemRatio：      进程内存使用率（进程物理内存占用/总物理内存）  
+    MemRss：        进程物理内存占用  
+    MemVsz：        进程虚拟内存占用  
+    MemMinfltRate：	进程发生minor faults 的频率  
     MemMajfltRate：	进程发生major faults 的频率  
   
-    IoRdRate	：		进程硬盘读速率  
-    IoWrRate：		进程硬盘写速率  
-    IoCcwrRate：		进程cancelled write的速率  
-    IoDelay：		进程的block I/O延时  
+    IoRdRate：      进程硬盘读速率  
+    IoWrRate：      进程硬盘写速率  
+    IoCcwrRate：	进程cancelled write的速率  
+    IoDelay：       进程的block I/O延时  
   
-    NetSdRate：		进程网络发送速率（包括TCP、UDP）（要求root权限）  
-NetRcRate：		进程网络接收速率（包括TCP、UDP）（要求root权限）  
+    NetSdRate：     进程网络发送速率（包括TCP、UDP）（要求root权限）  
+    NetRcRate：     进程网络接收速率（包括TCP、UDP）（要求root权限）  
   
 ### 4、安装
 ubuntu：  
