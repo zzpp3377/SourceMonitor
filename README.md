@@ -4,7 +4,7 @@
 	我们之所以提供一个资源监控库而非资源监控工具，主要是考虑到使用的灵活性。用户可以根据自己的需求，借助SourceMonitor库方便的搭建资源监控工具。  
 ### 2、API介绍
 	SourceMonitor的工作流程如下图所示：  
-![image]https://github.com/zzpp3377/SourceMonitor/blob/master/images/API.jpg  
+![image](https://github.com/zzpp3377/SourceMonitor/blob/master/images/API.jpg)  
 （1）注册监控参数：registerStatistic(StatisticT statistic)  
 	StatisticT是枚举类型，定义了SourceMonitor支持的监控参数。  
 （2）注册被监控进程：registerPid(unsigned int pid)  
